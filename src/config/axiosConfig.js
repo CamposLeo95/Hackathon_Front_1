@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const apiHackathon = axios.create({
-  baseURL: 'http://localhost:3002',
+  baseURL: 'https://hackathonback1-production.up.railway.app',
   timeout: 5000,
 });
 
